@@ -3,7 +3,7 @@ from torchvision import datasets, transforms
 from base import BaseDataLoader
 
 
-class MnistDataLoader(BaseDataLoader):
+class AjimeDataLoader(BaseDataLoader):
     """
     MNIST data loading demo using BaseDataLoader
     """
