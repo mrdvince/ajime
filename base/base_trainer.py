@@ -125,6 +125,7 @@ class BaseTrainer:
         state = {
             "arch": arch,
             "epoch": epoch,
+            "cls_to_idx": self.data_loader.dataset.class_to_idx,
             "state_dict": self.model.state_dict(),
             "optimizer": self.optimizer.state_dict(),
             "monitor_best": self.mnt_best,
