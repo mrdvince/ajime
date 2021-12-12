@@ -1,9 +1,8 @@
 import torch.nn as nn
-import torch.nn.functional as F
-import torch
+import torchvision
+
 from base import BaseModel
 
-import torchvision
 # class AjimeModel(BaseModel):
 #     def __init__(self):
 #         super(AjimeModel, self).__init__()
