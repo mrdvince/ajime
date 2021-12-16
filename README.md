@@ -85,7 +85,7 @@ Update the `config.json` file and include the model and dataloader class names.
 Finally run:
 
 ```bash
-python train.py -c confi.json
+python train.py -c config.json
 ```
 
 ## Folder structure
